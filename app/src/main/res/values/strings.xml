@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Wake My PC</string>
+    <string name="main_title">Wake On LAN Utility</string>
+    <string name="txtDefault">Seleccionar una configuración guardada</string>
+    <string name="txtManually">Introducir MAC</string>
+    <string name="btnSave">Guardar</string>
+    <string name="hintMac">FF FF FF FF FF FF</string>
+    <string name="txtHelp">La cadena de la dirección MAC puede o no contener espacios</string>
+    <string name="hintMacName">Pc Master Race</string>
+    <string name="btnSend">Hacer Magia</string>
+    <string name="txtInfo">Información</string>
+    <string name="lblAuthor">Hecho con ❤️ por Rodrigo Alvarez</string>
+    <string name="lblInfo">
+        <![CDATA[
+        <h3 style="text-align:center">¿Sabías que puedes encender tu PC vía Internet?</h3><br/>
+        Gracias a Wake On LAN lo puedes hacer, pero primero tenemos que tener en cuenta ciertas cosas:<br/><br/>
+        <ol>
+            <li>&nbsp;Esta aplicación es compatible unicamente con computadoras conectadas via cable Ethernet</li><br/>
+            <li>&nbsp;Esta aplicación utiliza internet (local) para poder enviar el paquete necesario (Magic Packet)</li><br/>
+            <li>&nbsp;Tu computadora debe de tener activada la opción WoL o Wake on LAN desde la BIOS</li><br/>
+            <li>&nbsp;Tu computadora debe de tener activada la opción de WoL en tu tarjeta de Red</li><br/>
+            <li>&nbsp;<b>Windows</b>: Administrador de dispositivos -> Adaptador de red -> Propiedades -> Opciones Avanzadas -> Propiedad: Wake On Lan Packet -> Activado/Enable</li><br/>
+            <li>&nbsp;Administración de Energía -> Only Allow a magic packet to wake the computer</li><br/>
+            <li>&nbsp;Para encontrar tu dirección MAC, basta con ejecutar<p style="text-align:center">"ipconfig /all"</p>en el CMD y buscar el adaptador Ethernet y tomar el campo de "dirección física"</li><br/>
+        </ol>
+
+        Si todo ha salido correctamente, podrás activar tu computadora desde el telefono.<br/>
+        ]]>
+    </string>
+</resources>
